@@ -4,6 +4,9 @@ const port = 3000;
 
 app.use(express.urlencoded({extended: false}));
 
+app.get("/", (req, res) => {
+	res.send("What are you doing?"
+});
 app.get("/api", (req, res) => {
 	res.send("Welcome to Express API")	
 });
