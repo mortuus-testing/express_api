@@ -16,7 +16,18 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            background-color: white;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
             background-color: #67e9ff;
+            padding: 50px;
+            border-radius: 20px;
+            box-shadow: 15px 15px black;
+            border-top: 2px solid black;
+            border-left: 2px solid black;
         }
         .separator {
             height: 200px;
@@ -52,17 +63,19 @@
     <title>Express API</title>
 </head>
 <body>
-    <img src="hippo.jpg" alt="hippo.jpg" width="300" height="300">
-    <div class="separator"></div>
-    <section>
-        <h1>There is nothing here</h1>
-        <p>This is my personal API server for development purpose.</p>
-        <div>
-            <p class="rest">GET</p>
-            <p class="rest">POST</p>
-            <p class="rest">PUT</p>
-            <p class="rest">DELETE</p>
-        </div>
-    </section>
+    <div class="container">
+        <img src="hippo.jpg" alt="hippo.jpg" width="300" height="300">
+        <div class="separator"></div>
+        <section>
+            <h1>There is nothing here</h1>
+            <p>This is my personal API server for development purpose.</p>
+            <div>
+                <p class="rest">GET</p>
+                <p class="rest">POST</p>
+                <p class="rest">PUT</p>
+                <p class="rest">DELETE</p>
+            </div>
+        </section>
+    </div>
 </body>
 </html>
